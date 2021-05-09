@@ -1,0 +1,52 @@
+#! /bin/sh
+
+#xrdb ~/.config/X11/Xresources &
+$HOME/.config/polybar/launch.sh &
+mumble-overlay picom &
+dunst &
+bash /home/trollshotlol/.config/bspwm/bspwm_colors.sh &
+#pidof bspswallow || bspswallow &
+
+#bspc monitor -d           # bitmap icons
+bspc monitor -d           # font awesome icons
+bspc monitor -g 1366x768+0+0
+
+bspc config border_width         1
+bspc config window_gap          0
+
+bspc config normal_border_color "$color1"
+bspc config active_border_color "$color2"
+bspc config focused_border_color "$color15"
+bspc config presel_feedback_color "$color1"
+
+bspc config split_ratio          0.50
+bspc config auto_alternate true
+bspc config borderless_monocle true
+bspc config single_monocle true
+bspc config gapless_monocle true
+bspc config focus_follows_pointer true
+
+bspc rule -a "Emacs" state=tiled
+bspc rule -a "unimatrix" state=fullscreen
+bspc rule -a "Zathura" state=tiled
+
+bspc rule -a "Pale moon" desktop=
+bspc rule -a "qutebrowser" desktop=
+bspc rule -a "firefox" desktop=
+bspc rule -a "LibreWolf" desktop=
+bspc rule -a "IceCat" desktop=
+bspc rule -a "Chromium" desktop=
+bspc rule -a "Spotify" desktop=
+bspc rule -a "Rhythmbox" desktop=
+bspc rule -a "Lutris" desktop=
+bspc rule -a "Mumble" desktop=
+bspc rule -a "Riot" desktop=
+bspc rule -a "discord" desktop=
+bspc rule -a "Ripcord" desktop=
+bspc rule -a "Thunderbird" desktop=
+bspc rule -a "keepassx2" desktop=
+bspc rule -a "keepassxc" desktop=
+bspc rule -a "Transmission-gtk" desktop=
+bspc rule -a "Steam" desktop=
+bspc rule -a "Thunar" desktop=
+bash /home/trollshotlol/.config/bspwm/bspwm_colors.sh &bash /home/trollshotlol/.config/bspwm/bspwm_colors.sh &bash /home/trollshotlol/.config/bspwm/bspwm_colors.sh &

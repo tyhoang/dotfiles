@@ -1,0 +1,48 @@
+# settings
+set adjust-open                "best-fit"
+set window-height              "980"
+set window-width               "900"
+set selection-clipboard        "clipboard"
+set statusbar-basename         "true"
+set pages-per-row              "1"
+set zoom-min                   "50"
+set vertical-center            "true"
+set page-padding               "2" # blank space between pages
+set incremental-search         "true"
+
+
+# keybindings
+map <F1> set "pages-per-row 1"
+map <F2> set "pages-per-row 2"
+map <C--> zoom out
+map <C-=> zoom in
+map i recolor
+
+
+#stop at page boundries
+set scroll-page-aware "true"
+set scroll-full-overlap 0.01
+set scroll-step 100
+
+
+# appearance
+set font                        "JetBrains Mono 8"
+set default-bg                  "#282A36"
+set default-fg                  "#F8F8F2"
+
+set highlight-color             "#5f819d"
+set highlight-active-color      "#555aa7"
+
+set statusbar-bg                "#0D0C03"
+set statusbar-fg                "#e1c697"
+
+set recolor-lightcolor          "#282A36"
+set recolor-darkcolor           "#F8F8F2"
+set recolor                     "true"     #This define if the pdf will be dark ou light
+
+# setting recolor-keep true will keep any color your pdf has.
+# if it is false, itll just be black and white
+set recolor-keephue             "true"
+
+# vim: set ft=conf:
+set sandbox none

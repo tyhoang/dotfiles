@@ -1,0 +1,10 @@
+# GIMP gimp-text-tool options
+
+(foreground (color-rgb 0.073913043478260887 0.073913043478260887 0.073913043478260887))
+(palette "Standard")
+(font "Standard Symbols PS")
+(font-size 25)
+(hint-style full)
+(justify center)
+
+# end of gimp-text-tool options

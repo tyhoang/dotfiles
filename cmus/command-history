@@ -1,0 +1,10 @@
+filter ffff
+add http://stream.trainsweebshop.tk/mpd.m3u
+add http://stream.trainsweebshop.tk/mpd.mp3
+add https://stream.trainsweebshop.tk/mpd.mp3
+add 'http://stream.trainsweebshop.tk/mpd.mp3'
+add 'https://stream.trainsweebshop.tk/mpd.mp3'
+clear
+set resume=true
+add Downloads/stream.m3u
+add http://listen.moe/stream.m3u

@@ -1,0 +1,83 @@
+set undodir=$HOME/.config/vim/undo
+set directory=$HOME/.config/vim/swap
+set backupdir=$HOME/.config/vim/backup
+set viewdir=$HOME/.config/vim/view
+set viminfo+='1000,n$HOME/.config/vim/viminfo
+set runtimepath=$HOME/.config/vim,$VIMRUNTIME,$HOME/.config/vim/after
+set rtp+=$HOME/.config/vim/bundle/Vundle.vim
+set enc=utf-8
+
+call vundle#begin('$HOME/.config/vim/bundle')
+" Put Plugins Here
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'scrooloose/nerdcommenter'
+Plugin 'junegunn/fzf'
+Plugin 'junegunn/fzf.vim'
+Plugin 'tpope/vim-sensible'
+Plugin 'lervag/vimtex'
+Plugin 'arcticicestudio/nord-vim'
+
+call vundle#end() 
+
+" Fzflib
+command! FZFLib call fzf#run({'source': 'find ~/.config/ ~/.local/bin -type f', 'sink':  'edit'})
+
+" Theme
+"set background=dark
+colorscheme nord
+
+" Don't try to be vi compatible
+set nocompatible
+
+" Turn on syntax highlighting
+syntax on
+
+" For plugins to load correctly
+filetype plugin indent on
+
+" TODO: Pick a leader key
+" let mapleader = "\"
+
+" Security
+set modelines=0
+
+" Show line numbers set number
+set relativenumber
+set number
+
+" Move up/down editor lines
+"nnoremap j gj
+"nnoremap k gk
+
+" Allow hidden buffers
+set hidden
+
+" Last line
+set showmode
+set showcmd
+
+" Searching
+nnoremap / /\v
+vnoremap / /\v
+set hlsearch
+set incsearch
+set ignorecase
+set smartcase
+set showmatch
+map <leader><space> :let @/=''<cr> " clear search
+
+" Undo Persistence
+set undofile
+
+" Spellcheck
+set spell spelllang=en_us
+
+" Show match count
+set shortmess-=S
+
+set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
+
+" Mappings
+nnoremap \f :FZFLib<CR>
+let g:tex_flavor = 'latex'
+let g:vimtex_view_method = 'zathura'

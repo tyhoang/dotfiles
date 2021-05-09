@@ -1,0 +1,12 @@
+unbind-key g # bound to `sort` by default
+unbind-key G # bound to `rev-sort` by default
+bind-key g home
+bind-key G end
+bind-key k up
+bind-key j down
+
+auto-reload yes
+article-sort-order date-asc
+
+macro y set browser "devour mpv %u"
+macro l set browser "devour brave %u"

@@ -1,0 +1,6 @@
+clear lock
+clear control
+!clear XF86Sleep
+keycode 66 = Control_L
+keycode 37 = Caps_Lock
+add control = Control_L Control_R

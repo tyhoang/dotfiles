@@ -1,0 +1,46 @@
+alias neo="fm6000"
+alias nb="newsboat"
+alias rms="shred -uz"
+alias ncm="ncmpcpp"
+alias weather="curl wttr.in"
+alias scurl="curl --tlsv1.2 --proto =https"
+alias grep="grep --color=always"
+alias ncms="ncm -h 192.168.1.12"
+alias school="cd ~/docs/school"
+alias abook="abook -f ~/.config/abook/addressbook"
+alias irssi="irssi --config="$XDG_CONFIG_HOME"/irssi/config --home="$XDG_DATA_HOME"/irssi"
+
+# Verbosity and settings that you pretty much just always are going to want.
+alias	cp="cp -iv" 
+alias	mv="mv -iv" 
+alias	rm="rm -vI" 
+alias	mkd="mkdir -pv" 
+alias	yt="youtube-dl --add-metadata -i" 
+alias	yta="yt -x -f bestaudio/best" 
+alias	ffmpeg="ffmpeg -hide_banner"
+
+# Colorize commands when possible.
+alias	ls="exa -h --color=auto --group-directories-first" 
+alias	grep="grep --color=auto" 
+alias	diff="diff --color=auto" 
+alias	ccat="highlight --out-format=ansi"
+
+# These common commands are just too long! Abbreviate them.
+alias	ka="killall" 
+alias	g="git" 
+alias	trem="transmission-remote" 
+alias	YT="youtube-viewer" 
+alias	sdn="sudo shutdown -h now" 
+alias	f="$FILE" 
+alias	e="$EDITOR" 
+alias	v="$EDITOR" 
+alias	p="sudo pacman" 
+alias	xi="sudo xbps-install" 
+alias	xr="sudo xbps-remove -R" 
+alias	xq="xbps-query" 
+alias	z="zathura"
+alias	nassh="ssh root@192.168.1.12"
+alias	vultrssh="ssh tyler@tylerhoang.xyz -p 46701"
+
+# tomb
+alias	tombdata="tomb exhume ~/pics/school\ \&\ friends/glowshow2.jpg | tomb open ~/docs/database/data.tomb -k -"

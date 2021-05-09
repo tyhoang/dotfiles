@@ -1,0 +1,7 @@
+# GIMP gimp-by-color-select-tool options
+
+(feather yes)
+(feather-radius 10.5)
+(sample-merged yes)
+
+# end of gimp-by-color-select-tool options

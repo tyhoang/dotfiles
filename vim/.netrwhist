@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =3
+let g:netrw_dirhist_3='/home/train/work/st'
+let g:netrw_dirhist_2='/home/trollshotlol/.config/vim/autoload'
+let g:netrw_dirhist_1='/etc/urlview'
+let g:netrw_dirhist_0='/home/trollshotlol/Games/HL2/config'
+let g:netrw_dirhist_9='/home/trollshotlol/.config/vim/autoload'
+let g:netrw_dirhist_8='/home/trollshotlol/.config/jellyfin-mpv-shim'
+let g:netrw_dirhist_7='/home/trollshotlol/.local/share/qutebrowser/qutebrowser/QtWebEngine/OffTheRecord'
+let g:netrw_dirhist_6='/mnt/trollshotlol@maeve/transmission'
+let g:netrw_dirhist_5='/home/trollshotlol/.config'
+let g:netrw_dirhist_4='/home/trollshotlol/.moonchild productions/pale moon/muhhfi3j.default'
