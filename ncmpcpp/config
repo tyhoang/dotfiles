@@ -84,7 +84,6 @@ autocenter_mode = "yes"
 centered_cursor = "yes"
 mouse_support = "yes"
 colors_enabled = "yes"
-store_lyrics_in_song_dir = "yes"
 song_window_title_format = ncmpcpp
 ask_before_clearing_playlists = "yes"
 volume_change_step = "1"

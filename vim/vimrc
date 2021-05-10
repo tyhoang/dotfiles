@@ -1,8 +1,8 @@
+set viminfo+=n~/.config/vim/viminfo
 set undodir=$HOME/.config/vim/undo
 set directory=$HOME/.config/vim/swap
 set backupdir=$HOME/.config/vim/backup
 set viewdir=$HOME/.config/vim/view
-set viminfo+='1000,n$HOME/.config/vim/viminfo
 set runtimepath=$HOME/.config/vim,$VIMRUNTIME,$HOME/.config/vim/after
 set rtp+=$HOME/.config/vim/bundle/Vundle.vim
 set enc=utf-8
@@ -48,6 +48,8 @@ set number
 " Move up/down editor lines
 "nnoremap j gj
 "nnoremap k gk
+nnoremap J }
+nnoremap K {
 
 " Allow hidden buffers
 set hidden

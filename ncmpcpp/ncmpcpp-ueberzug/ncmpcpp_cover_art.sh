@@ -4,9 +4,9 @@
 # SETTINGS
 music_library="$HOME/music"
 fallback_image="$HOME/.config/ncmpcpp/ncmpcpp-ueberzug/img/fallback.png"
-padding_top=4
-padding_bottom=2
-padding_right=2
+padding_top=3
+padding_bottom=0
+padding_right=0
 max_width=30
 reserved_playlist_cols=70
 reserved_cols_in_percent="true"
@@ -14,7 +14,7 @@ force_square="true"
 square_alignment="top"
 
 left_aligned="true"
-padding_left=2
+padding_left=0
 
 # Only set this if the geometries are wrong or ncmpcpp shouts at you to do it.
 # Visually select/highlight a character on your terminal, zoom in an image 
